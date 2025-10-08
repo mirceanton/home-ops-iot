@@ -14,9 +14,18 @@
 # Linters
 "actionlint" = "latest"
 "yamllint" = "latest"
+"shellcheck" = "latest"
 "yq" = "latest"
 "jq" = "latest"
 
 # Runtimes
 python = "latest"
 uv = "latest"
+
+[tasks."encrypt"]
+description = "Encrypt all sops files."
+run = "bash ${MISE_PROJECT_ROOT}/scripts/sops-encrypt-all.bash"
+
+[tasks."decrypt"]
+description = "Decrypt all sops files."
+run = "bash ${MISE_PROJECT_ROOT}/scripts/sops-decrypt-all.bash"
