@@ -28,11 +28,11 @@ uv = "latest"
 
 [tasks."encrypt"]
 description = "Encrypt all sops files."
-run = "bash ${MISE_PROJECT_ROOT}/scripts/sops-encrypt-all.sh"
+run = "bash ${MISE_PROJECT_ROOT}/.scripts/sops-encrypt-all.sh"
 
 [tasks."decrypt"]
 description = "Decrypt all sops files."
-run = "bash ${MISE_PROJECT_ROOT}/scripts/sops-decrypt-all.sh"
+run = "bash ${MISE_PROJECT_ROOT}/.scripts/sops-decrypt-all.sh"
 
 [tasks."lint"]
 description = "Run all linters."
