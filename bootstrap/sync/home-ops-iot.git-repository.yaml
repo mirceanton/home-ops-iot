@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: home-ops-iot
+spec:
+  interval: 1m
+  url: https://github.com/mirceanton/home-ops-iot
+  ref: { branch: main }
