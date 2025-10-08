@@ -1,0 +1,17 @@
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: config
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: home-ops-iot
+  path: ./config
+  prune: true
+
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-age
