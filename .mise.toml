@@ -39,5 +39,5 @@ description = "Run all linters."
 run = [
     "actionlint",
     "yamllint .",
-    "shellcheck **/*.sh",
+    "shellcheck .scripts/*.sh",
 ]
