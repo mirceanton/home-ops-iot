@@ -72,4 +72,3 @@ spec:
             port: http-webhook
           initialDelaySeconds: 10
           timeoutSeconds: 5
-
