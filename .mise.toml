@@ -1,0 +1,22 @@
+[tools]
+# Kubectl + Plugins
+"kubectl" = "1.34.1"
+"flux2" = "2.7.2"
+"kustomize" = "latest"
+"k9s" = "latest"
+"helm" = "latest"
+"helmfile" = "latest"
+
+# Secret Encryption Stuff
+"sops" = "latest"
+"age" = "latest"
+
+# Linters
+"actionlint" = "latest"
+"yamllint" = "latest"
+"yq" = "latest"
+"jq" = "latest"
+
+# Runtimes
+python = "latest"
+uv = "latest"
