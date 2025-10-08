@@ -21,6 +21,7 @@ spec:
     registry: txt
     txtOwnerId: iot
     txtPrefix: k8s.iot.
+    domainFilters: ["mirceanton.com"]
     policy: sync
     triggerLoopOnEvent: true
 
