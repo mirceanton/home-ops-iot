@@ -4,5 +4,5 @@ kind: Kustomization
 
 resources:
   - https://github.com/fluxcd/flux2/releases/download/v2.7.2/install.yaml
-  - https://github.com/cert-manager/cert-manager/releases/download/v1.19.0/cert-manager.crds.yaml
+  - https://github.com/cert-manager/cert-manager/releases/download/v1.19.1/cert-manager.crds.yaml
   - ./flux-sync
