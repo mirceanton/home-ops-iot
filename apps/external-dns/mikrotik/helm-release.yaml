@@ -32,7 +32,7 @@ spec:
           - name: MIKROTIK_SKIP_TLS_VERIFY
             value: "true"
           - name: MIKROTIK_PASSWORD
-            vcalueFrom:
+            valueFrom:
               secretKeyRef:
                 name: mikrotik-credentials
                 key: password
