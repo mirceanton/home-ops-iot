@@ -28,7 +28,7 @@ spec:
           tag: v1.5.3
         env:
           - name: MIKROTIK_BASEURL
-            value: "https://router.home.mirceanton.com/rest"
+            value: "https://10.0.0.1/rest"
           - name: MIKROTIK_SKIP_TLS_VERIFY
             value: "true"
           - name: MIKROTIK_PASSWORD
